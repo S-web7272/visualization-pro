@@ -14,7 +14,7 @@ sess = Session()
 st.title('Analysis of World Covid-19 Vaccination Progress')
 st.text("")
 st.text("")
-st.image("logo.jpg")
+st.image("d41586-019-03635-9_17408652.gif")
 st.markdown("---")
 sidebar = st.sidebar
 sidebar.title('Analysis of World Covid-19 Vaccination Progress')
