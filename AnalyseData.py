@@ -6,7 +6,7 @@ class Analyse:
     def __init__(self, path):
         self.df = pd.read_csv(path)
         # self.df = self.df[:1000]
-        if path == 'datasets\country.csv':
+        if path == r'datasets/country.csv':
             self.df["Total_vaccinations(count)"] = self.df.groupby(
                 "country").total_vaccinations.tail(1)
             self.df["People_vaccinated(count)"] = self.df.groupby(
