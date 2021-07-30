@@ -186,10 +186,12 @@ def vaccineAnalysis():
         data, 'Total people fully Vaccinated in world countries', 'Country Name', 'No. of Vaccinations'), use_container_width=True)
     st.markdown("---")
 
+   
+
 
 sidebar.header('Choose Your Option')
 options = ['View Dataset', 'Analyse Manufacturers',
-           'Analyse Country', 'Analyse Country By Vaccine']
+           'Analyse Country', 'Analyse Country By Vaccine',]
 choice = sidebar.selectbox(options=options, label="Choose Action")
 
 with st.spinner("Please Wait for Some Time..."):
