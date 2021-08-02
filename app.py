@@ -22,7 +22,7 @@ sidebar.title('Analysis of World Covid-19 Vaccination Progress')
 
 def viewDataset():
     st.header('Data Used in Project')
-    datasets = ['Country Data', 'Manufacturers Data']
+    datasets = ['Country Data', 'Manufacturer Data']
     selData = st.selectbox(options=datasets, label='Select Dataset to View')
     if selData == datasets[0]:
         dataframe = analysis_cnt.getDataframe()
